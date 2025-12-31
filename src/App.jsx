@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useAccount, useDisconnect, useBalance } from 'wagmi'
+import { useAccount, useDisconnect } from 'wagmi'
 import { open } from '@reown/appkit' // For opening the modal
 
 const STACKS_RPC_URL = 'https://stacks-node-api.mainnet.stacks.co/v2/accounts/'
