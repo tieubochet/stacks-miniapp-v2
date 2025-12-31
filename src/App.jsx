@@ -17,7 +17,7 @@ function App() {
         try {
           const response = await fetch(`${STACKS_RPC_URL}${address}`)
           const data = await response.json()
-          const stxBalance = parseInt(data.balance) / 1_000_000 // STX has 6 decimals
+          const stxBalance = parseInt(data.balance) / 1000000 // STX has 6 decimals
           setBalance(stxBalance)
         } catch (err) {
           setError('Failed to fetch balance: ' + err.message)
