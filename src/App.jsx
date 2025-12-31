@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import SignClient from '@walletconnect/sign-client'
 import QRCode from 'qrcode.react'
 
-const PROJECT_ID = 'b113be1d4d4bec533241f1af1982e154'
+const PROJECT_ID = 'e7569b869626086b2a4a61ad701e57ef'
 const STACKS_RPC_URL = 'https://stacks-node-api.mainnet.stacks.co/v2/accounts/'
 
 function App() {
